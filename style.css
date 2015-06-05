@@ -47,6 +47,7 @@ h1{
 	background: #333;
 	border-radius: 5px;
 	word-spacing: 3px;
+	display: inline-table;
 }
 
 
@@ -83,6 +84,7 @@ h1{
 
 .main-article-img {
 	float: left;
+	margin-right: 50px;
 }
 
 .main-article-content{
@@ -171,4 +173,13 @@ h1{
 .footer-right {
 	float: right;
 	padding: 30px 20px 0 0 ;
+}
+
+@media  only screen and (min-device-width: 960px) {
+.main-article-content
+{
+	float: left;
+	
+}
+	
 }
