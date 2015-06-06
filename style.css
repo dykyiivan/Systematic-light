@@ -35,6 +35,7 @@ h1{
 
 .slogan{
   padding: 3px 0 0 0;
+  font-size: 12px;
 }
 
 ul::after {
