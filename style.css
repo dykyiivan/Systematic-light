@@ -30,12 +30,12 @@ h1{
 
 
 .logo {
-	margin: 30px 0 35px 0;
+	margin: 30px 0 35px;
 }
 
 .slogan{
-  padding: 3px 0 0 0;
-  font-size: 12px;
+	font-size: 12px;
+	padding-top: 3px;
 }
 
 ul::after {
@@ -47,14 +47,14 @@ ul::after {
 ul {
 	background: #333;
 	border-radius: 5px;
-	padding: 0 0 0 60px;
+	padding-left: 60px;
 	word-spacing: 1px;
 }
 
 .nav ul li {
 	float: left;
 	list-style: none;
-	padding: 0 36px 0 0;
+	padding-right: 36px;
 }
 
  .nav ul li a{
@@ -63,12 +63,13 @@ ul {
 	text-decoration: none;
 	font-size: 12px;
 	font-weight: normal;
-	padding: 15px 0 11px 0;
+	padding: 15px 0 11px;
 }
 
 .nav ul li a:hover {
-	cursor: pointer;
 	color: #ba2e1f;
+	cursor: pointer;
+	
 }
 
 
@@ -84,7 +85,7 @@ ul {
 
 .main-article-title {
 	font-size: 84px;
-	padding: 115px 0 0 0; 
+	padding-top: 115px; 
 }
 
 .main-article-p {
@@ -97,10 +98,10 @@ ul {
 	color: #ba2e1f;
 	display: block;
 	font-size: 16px;
+	padding-top: 15px;
 	text-transform: uppercase;
 	text-decoration: none;
 	text-align: right;
-	padding-top: 15px;
 }
 
 .read-more a:hover {
@@ -123,8 +124,9 @@ ul {
 }
 
 .article p span {
-	padding: 35px 0 30px 0;
-  	display: block;
+	display: block;
+	padding: 35px 0 30px;
+  	
 }
 
 .article h1 {
@@ -133,7 +135,7 @@ ul {
 
 .article-img {
 	float: left;
-	margin: 0 15px 0px 0;
+	margin-right: 15px;
 	border: 2px solid #dfdfdf;
 }
 
@@ -152,8 +154,9 @@ ul {
 }
 
 .footer p {
-	font-size: 12px;
 	color: #919191;
+	font-size: 12px;
+	
 }
 
 .footer-left {
@@ -163,7 +166,7 @@ ul {
 
 .footer-right {
 	float: right;
-	padding: 30px 20px 0 0 ;
+	padding: 30px 20px  0;
 }
 
 
