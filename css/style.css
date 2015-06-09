@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+
+/* Header */
+
+#header {
+	height: 160px;
+}
+
+.logo {
+	margin: 30px 0 5px 0;
+}
+
+.slogan {
+	font-family: Georgia, sans-serif;
+	font-size: 12px;
+	color: #000;
+	margin-bottom: 35px;
+}
+
+.navbar-nav {
+	background: #333;
+	border-radius: 5px;
+	width: 100%;
+	padding-left: 60px;
+}
+
+.navbar-nav li a {
+	color: #e9e8e3;
+	font-size: 12px;
+	font-family: Georgia, sans-serif;
+	padding: 10px 36px 10px 0;
+}
+
+.navbar-nav li a:hover {
+	background: none;
+	color: #ba2e1f;
+	cursor: pointer;
+}
