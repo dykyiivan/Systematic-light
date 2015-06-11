@@ -46,8 +46,9 @@ header {
 }
 
 /* Contant */
+
 .col-lg-6 {
-	padding: 0 0 0 0;
+	padding: 0;
 }
 
 .col-img {
@@ -84,4 +85,65 @@ header {
 	color: #ba2e1f;
 	text-decoration: underline;
 	background: none;
+}
+
+
+.h2 {
+	font-size: 26px;
+	color: #333;
+	font-family: Georgia, sans-serif;
+	font-weight: normal;
+	padding: 0 0 2px 0;
+}
+
+
+
+.other-features {
+	padding: 0;
+	margin-top: 25px;
+	color: #878787;
+	font-size: 13px;
+	font-family: Georgia, sans-serif;
+	line-height: 1.5;
+	margin-bottom: 60px;
+}
+
+.other-features img {
+	border: 1px solid #dfdfdf;
+	margin-right: 15px;
+}
+
+.other-features p span {
+	display: block;
+	padding: 27px 0 25px;
+
+}
+
+/* Footer */
+footer{
+	background: #f2f2f2;
+	padding: 25px 0 12px 0;
+	
+	
+}
+
+footer p {
+	font-family: Georgia, sans-serif;
+	color: #919191;
+	font-size: 12px;
+
+}
+
+span.footer-right {
+	text-align: right;
+
+}
+footer p span.copyright {
+	padding-top: 26px;
+}
+
+
+.col-lg-12 {
+	padding-right: 0;
+	padding-left: 0;
 }
