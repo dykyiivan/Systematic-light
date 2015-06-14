@@ -1,20 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
 	<meta charset="UTF-8">
-	<title>Systematic-light</title>
-	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="wrapper">
-		<div class="main-header">
-			<div class="logo">
-				<a href="#"><img src="images/logo.png"  alt="Systematic"></a>
-				<p class="slogan">Free PSD Website Template</p>
+	<div class="top-bar">
+		<div class="top-bar-wrapper">
+			<div >
+				<ul class="top-bar-links">
+					<li><a href="#">Sign Up</a></li>
+					<li><a href="#">Login</a></li>
+					<li><a href="#">RSS Feeds</a></li>
+					<li><a href="#" class="border-none">Archived News</a></li>
+				</ul>
 			</div>
-			<div class="nav">
+			<form class="search">
+				<input type="search" class="search-txt" placeholder="Пошук...">
+				<input type="submit" name="" value="" class="submit">
+			</form>
+		</div>
+	</div>
+	<div class="wrapper">
+			<header>
+				<div class="logo">
+					<a href="#"><img src="images/logo.png" alt="Логотип"></a>
+					<p class="slogan">Free PSD Website Template</p>
+				</div>
+				<div class="social">
+						<ul>
+							<li><a href="#" class="linkedin"></a></li>
+							<li><a href="#" class="twitter"></a></li>
+							<li><a href="#" class="pinterest"></a></li>
+							<li><a href="#" class="google"></a></li>
+							<li><a href="#" class="rss"></a></li>
+						</ul>
+				</div>
+			</header>
+			<nav class="menu">
 				<ul>
-					<li><a href="index.html">HOMEPAGE</a></li>
+					<li><a href="#">HOMEPAGE</a></li>
 					<li><a href="#">STYLE DEMO</a></li>
 					<li><a href="#">FULL WIDTH</a></li>
 					<li><a href="#">DROPDOWN</a></li>
@@ -23,35 +49,73 @@
 					<li><a href="#">LINK TEXT</a></li>
 					<li><a href="#">LONG LINK TEXT</a></li>
 				</ul>
-			</div>
-		</div>
-		<div class="content">
-			<div class="main-article">
-				<div class="main-article-img">
-					<a href="#"><img src="images/main-article-img.jpg" alt="Main Article Image"></a>
-				</div>
-				<div class="main-article-content">
-					<p class="main-article-title">A HUGE<br> TITLE HERE</p>
-					<p class="main-article-p">Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur consequam intesque. Curabiturpisametur in ante.</p>
+			</nav>
+			<section>
+				<article class="main">
+					<img src="images/main-article-img.jpg" alt="Main Image" class="main-img">
+					<h1 class="main-article-title">A HUGE<br>TITLE HERE</h1>
+					<p class="main-article-p">
+						Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et Curabiturpisameturrabitur consequam intesque. Curabiturpisametur in ante.
+					</p>
 					<a href="#" class="read-more">Read more<img src="images/read-more-btn.jpg" alt="Read More"></a>
-				</div>
-			</div>
-
-			<div class="article">
-				<h1>A Little About Us</h1>
+				</article>
+			</section>
+		</div>
+		<section class="content">
+			<section class="content-wrapper">
+				<article class="left-column">
+					<h1>A Little About Us</h1>
 				<a href="#"><img src="images/article-img.jpg" class="article-img" alt="Article Image"></a>
-				<p>Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laore et tincidunt ut vel velit nonummy laoreet phasellent penatoque in antesque<br> pellus elis eget tincidunt.</p>
-				<p><span>Idenim semper pellente velis felit ac. Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.</span></p>
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quo commodi atque laudantium esse ab at nulla voluptates, eligendi. Nam suscipit enim voluptatem fuga, fugit nulla, aliquid tempora veniam ratione. Sapiente ratione, hic totam iste iure reiciendis similique magnam itaque, officiis, quam nihil est atque perspiciatis beatae ut veniam pariatur! A error mollitia, itaque optio nemo quidem deleniti repellendus natus dolores, sequi veritatis sapiente consequatur hic pariatur dolore maiores, ipsam necessitatibus aliquid fuga nobis. Commodi cumque tempora obcaecati dolor architecto, at inventore animi natus doloremque ea eaque. Deserunt omnis molestiae ducimus enim reprehenderit minima porro pariatur. Mollitia asperiores, earum ipsam!</p>
-			</div>
-		</div>
+				<p class="left-column-p">Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.</p>
+				<p>Idenim semper pellente velis felit ac. Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
+				</p>
+				<a href="#" class="read-more-main-content">Read More About Us<img src="images/read-more-btn.png" class="read-more-img"></a>
+				</article>
+				<article class="center-column">
+					<h1>Some of Our Services</h1>
+					<section class="center-content">
+						<img src="images/servisec-img.jpg" alt="servisec-img">
+						<p class="service-name">Service Name</p>
+						<p>Inteligula congue id elis donec sce sag ittis intes id laoreet aenean. </p>
+				
+					</section>
+					<section class="center-content">
+						<img src="images/servisec-img.jpg" alt="servisec-img">
+						<p class="service-name">Service Name</p>
+						<p>Inteligula congue id elis donec sce sag ittis intes id laoreet aenean. </p>
+					</section>
+					<section class="center-content">
+						<img src="images/servisec-img.jpg" alt="servisec-img">
+						
+						<p class="service-name">Service Name</p>
+						<p>Inteligula congue id elis donec sce sag ittis intes id laoreet aenean. </p>
+					</section>
+					<section id="last" class="center-content">
+						<img src="images/servisec-img.jpg" alt="servisec-img">
+						<p class="service-name">Service Name</p>
+						<p>Inteligula congue id elis donec sce sag ittis intes id laoreet aenean. </p>
+					</section>
+					<a href="#" class="read-more-main-content">View all of services<img src="images/read-more-btn.png" class="read-more-img"></a>
+				</article>
+				<article class="right-column">
+					<h1>What Our Clients Say</h1>
+					<div class="right-column-content">
+						<img src="images/blockquote.png" alt="Цитата">
+						<p class="blockquote">Tommy Tanker - <span>CEO</span></p>
+						<p>Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi lacus.</p>
+						<a href="#" class="read-more-main-content-right">View this project<img src="images/read-more-btn.png" class="read-more-right-img"></a>
+					</div>
+					<div class="right-column-content">
+						<img src="images/blockquote.png" alt="Цитата">
+						<p class="blockquote">Tommy Tanker - <span>CEO</span></p>
+						<p>Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi lacus.</p>
+						<a href="#" class="read-more-main-content-right">View this project<img src="images/read-more-btn.png" class="read-more-right-img"></a>
+					</div>
+				</article>
+			</section>
+		</section>
 		
-	</div>
-	<div class="footer">
-		<div class="footer-wrapper">
-				<p class="footer-left">Copyright &#169; 2015 Domain Name -  All Rihgts Reserved</p>
-				<p class="footer-right">Templerte by OS Templates</p>
-		</div>
-	</div>
+
+	
 </body>
 </html>
