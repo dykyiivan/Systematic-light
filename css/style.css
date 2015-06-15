@@ -7,6 +7,9 @@ body {
 	font-family: Georgia, sans-serif;
 }
 
+a {
+	color: #b92d1f;
+}
 /* TOP BAR */
 
 .top-bar {
@@ -181,10 +184,10 @@ font: 0/0 a;
 
 .rss {
 	background: #333 url(../images/rss.png) no-repeat;
+	border-radius: 50%;
 	display: block;
 	height: 32px;
 	width: 32px;
-	border-radius: 50%;
 }
 
 .rss:hover {
@@ -229,19 +232,16 @@ nav ul li {
 
 nav ul li a {
 	color: #e9e8e3;
-	text-decoration: none;
+	display: block;
 	font-size: 12px;
 	padding: 12px 16px;
-	display: block;
-	
+	text-decoration: none;
 }
-
 
 nav ul li a:hover {
 	color: #ba2e1f;
 	cursor: pointer;
 }
-
 
 /* CONTENT */
 
@@ -279,28 +279,30 @@ section {
 .read-more:hover {
 	text-decoration: underline;
 }
+
 .read-more img {
-	 float: none!important;
-	 margin: 0 0 2px 3px;
+	float: none!important;
+	margin: 0 0 2px 3px;
 }
 
 article.main-article {
-	margin-bottom: 30px;
 	overflow: hidden;
+	margin-bottom: 30px;
 }
 
 /* CONTENT MAIN*/
 
 .content {
-	width: 100%;
 	background: #f2f2f2;
 	overflow: hidden;
 	margin: 0;
+	padding-bottom: 40px;
 }
 
 .content-wrapper {
 	max-width: 960px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 
 .content-wrapper h1 {
@@ -377,7 +379,7 @@ article.main-article {
 }
 
 .center-column h1 {
-	  margin: 46px 0;
+	margin: 46px 0;
 }
 
 .center-column .service-name  {
@@ -393,7 +395,7 @@ article.main-article {
 }
 
 #last {
-	  margin-bottom: 18px;
+	margin-bottom: 18px;
 }
 
 /* RIGTH COLUMN */
@@ -414,7 +416,7 @@ article.main-article {
 }
 
 .right-column h1 {
-	  margin: 46px 0;
+	 margin: 46px 0;
 }
 
 .right-column-content {
@@ -451,3 +453,194 @@ article.main-article {
 	padding-left: 4px;
 }
 
+/* FOOTER */
+
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-family: Georgia, sans-serif;
+	padding: 0 15px;
+}
+
+h3.footer {
+	color: #666;
+	font-size: 16px;
+	font-weight: normal;
+	border-top: 1px solid #666;
+	padding: 20px 0 30px 0;
+}
+.tweets {
+	width: 210px;
+	float: left;
+	margin-right: 40px;
+
+}
+
+.tweets a {
+	text-decoration: none;
+}
+
+.tweets a:hover {
+	text-decoration: underline;
+}
+
+.tweets p {
+	color: #666;
+	font-size: 12px;
+	margin-bottom: 30px;
+	line-height: 1.5;
+}
+
+.links {
+	width: 210px;
+	float: left;
+	margin-right: 40px;
+}
+
+
+
+
+.links ul  {
+	list-style-image: url(../images/read-more-links.png);
+	list-style-position: inside;
+}
+
+
+.links ul li a {
+	color: #666;
+	text-decoration: none;
+	border-bottom: 1px solid #d4d4d4;
+	padding: 5px 0 5px 3px;
+	display: block;
+	font-size: 12px;
+}
+
+.links ul li a:hover {
+	text-decoration: underline;
+}
+
+.blog-posts {
+	width: 210px;
+	float: left;
+	margin-right: 40px;
+	color: #666;
+	font-size: 12px;
+}
+.blog-posts a {
+	text-decoration: none;
+
+}
+
+.blog-posts a:hover {
+	text-decoration: underline;
+}
+
+.post-title {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.article-date {
+	font-size: 10px;
+	padding-bottom: 20px;
+	font-weight: normal;
+}
+
+.read-more-blog {
+	display: block;
+	padding: 8px 0 15px 0;
+	text-align: right;
+}
+
+.read-more-blog img {
+	padding-left: 4px;
+}
+
+.contact {
+	width: 210px;
+	float: left;
+}
+
+input[type="text"] {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	border: none;
+	height: 30px;
+	padding-left: 7px;
+	margin-bottom: 10px;
+	width: 200px;
+}
+input[type="text"]:focus {
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+	outline: none; 
+}
+
+input[type="text"]::-webkit-input-placeholder {  /* Для зміни зовнішнього вигляду placeholder у Safari та Сhrome */
+    color: #989898;
+    font-size: 13px;
+} 
+
+input[type="text"]::-moz-placeholder { /* Для зміни зовнішнього вигляду placeholder у Firefox */
+    color: #989898;
+    font-size: 13px;
+}
+
+textarea {
+	/*width: 207px;*/
+	background: #f2f2f2;
+	border: none;
+	border-radius: 5px;
+	outline: none; 
+	resize: none;
+	overflow: hidden;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+
+.submit-form {
+	display: block;
+	margin-top: 5px;
+	cursor: pointer;
+	background: #f2f2f2;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 13px;
+	color: #ba2e1f;
+	font-size: 13px;
+}
+
+.submit-form:focus {
+	outline: none;
+}
+
+.copyright {
+	background: #f2f2f2;
+	margin-top: 20px;
+}
+
+.copyright-wrapper {
+	padding: 0 15px;
+	max-width: 960px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+.copyright-wrapper p {
+ 	color: #919191;
+	font-size: 12px;
+}
+
+.copyright-left {
+	float: left;
+	padding: 25px 0 ;
+}
+
+.copyright-right {
+	float: right;
+	padding: 25px 0 ;
+}
