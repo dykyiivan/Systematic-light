@@ -10,6 +10,7 @@ body {
 a {
 	color: #b92d1f;
 }
+
 /* TOP BAR */
 
 .top-bar {
@@ -73,6 +74,7 @@ a {
 .search-txt:focus {
 	box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
 }
+
 .submit {
 	border-radius: 50%;
 	border: none;
@@ -82,6 +84,10 @@ a {
 	background: transparent url(../images/search-icon.png);
 	position: absolute;
 	margin: -21px 0 0 186px;
+}
+
+.submit:focus {
+	outline: none;
 }
  
 input[type="search"]:focus {
@@ -135,12 +141,15 @@ font: 0/0 a;
 }
 
 .linkedin {
-	  background: #333 url(../images/linkedin.png) no-repeat;
-	  border-radius: 50%;
-	  display: block;
-	  height: 32px;
-	  width: 32px;
+	background: #333 url(../images/linkedin.png) no-repeat;
+	border-radius: 50%;
+	display: block;
+	height: 32px;
+	text-indent: -9999px;
+	width: 32px;
+	
  }
+
 
 .linkedin:hover {
 	background: #0e76a8 url(../images/linkedin.png) no-repeat;
@@ -151,7 +160,9 @@ font: 0/0 a;
 	border-radius: 50%;
 	display: block;
 	height: 32px;
+	text-indent: -9999px;
 	width: 32px;
+
 }
 
 .twitter:hover {
@@ -163,6 +174,7 @@ font: 0/0 a;
 	border-radius: 50%;
 	display: block;
 	height: 32px;
+	text-indent: -9999px;
 	width: 32px;
 }
 
@@ -175,6 +187,7 @@ font: 0/0 a;
 	border-radius: 50%;
 	display: block;
 	height: 32px;
+	text-indent: -9999px;
 	width: 32px;
 }
 
@@ -187,6 +200,7 @@ font: 0/0 a;
 	border-radius: 50%;
 	display: block;
 	height: 32px;
+	text-indent: -9999px;
 	width: 32px;
 }
 
@@ -213,7 +227,7 @@ header::after {
 	background: linear-gradient(to bottom,  #333333 0%,#333333 51%,#2b2b2b 51%,#2b2b2b 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333333', endColorstr='#2b2b2b',GradientType=0 ); /* IE6-9 */
   	border-radius: 5px;
-   	padding: 0 59px;
+   	padding: 6px 60px;
 }
 
 .menu::after {
@@ -234,7 +248,7 @@ nav ul li a {
 	color: #e9e8e3;
 	display: block;
 	font-size: 12px;
-	padding: 12px 16px;
+	padding: 6px 16px;
 	text-decoration: none;
 }
 
@@ -587,7 +601,6 @@ input[type="text"]::-moz-placeholder { /* Для зміни зовнішньог
 }
 
 textarea {
-	/*width: 207px;*/
 	background: #f2f2f2;
 	border: none;
 	border-radius: 5px;
@@ -644,3 +657,4 @@ textarea:focus {
 	float: right;
 	padding: 25px 0 ;
 }
+
