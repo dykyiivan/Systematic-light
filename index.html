@@ -2,7 +2,7 @@
 <html lang="uk">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Systematic</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -16,7 +16,7 @@
 					<li><a href="#" class="border-none">Archived News</a></li>
 				</ul>
 			</div>
-			<form class="search">
+			<form id="search">
 				<input type="search" class="search-txt" placeholder="Пошук...">
 				<input type="submit" name="" value="" class="submit">
 			</form>
@@ -63,22 +63,16 @@
 		</div>
 		<section class="content">
 			<section class="content-wrapper">
-				<article class="left-column">
-					<h1>A Little About Us</h1>
-				<a href="#"><img src="images/article-img.jpg" class="article-img" alt="Article Image"></a>
-				<p class="left-column-p">Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.</p>
-				<p>Idenim semper pellente velis felit ac. Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
-				</p>
-				<a href="#" class="read-more-main-content">Read More About Us<img src="images/read-more-btn.png" class="read-more-img" alt="Read More"></a>
-				</article>
-				<article class="center-column">
-					<h1>Some of Our Services</h1>
-					<section class="center-content">
-						<img src="images/servisec-img.jpg" alt="servisec-img">
-						<p class="service-name">Service Name</p>
-						<p>Inteligula congue id elis donec sce sag ittis intes id laoreet aenean. </p>
-				
-					</section>
+				<section class="left-column">
+					<h2>A Little About Us</h2>
+					<a href="#"><img src="images/article-img.jpg" class="article-img" alt="Article Image"></a>
+					<p class="left-column-p">Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.</p>
+					<p>Idenim semper pellente velis felit ac. Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt.
+					</p>
+					<a href="#" class="read-more-main-content">Read More About Us<img src="images/read-more-btn.png" class="read-more-img" alt="Read More"></a>
+				</section>
+				<section class="center-column">
+					<h2>Some of Our Services</h2>
 					<section class="center-content">
 						<img src="images/servisec-img.jpg" alt="servisec-img">
 						<p class="service-name">Service Name</p>
@@ -86,7 +80,11 @@
 					</section>
 					<section class="center-content">
 						<img src="images/servisec-img.jpg" alt="servisec-img">
-						
+						<p class="service-name">Service Name</p>
+						<p>Inteligula congue id elis donec sce sag ittis intes id laoreet aenean. </p>
+					</section>
+					<section class="center-content">
+						<img src="images/servisec-img.jpg" alt="servisec-img">
 						<p class="service-name">Service Name</p>
 						<p>Inteligula congue id elis donec sce sag ittis intes id laoreet aenean. </p>
 					</section>
@@ -96,22 +94,22 @@
 						<p>Inteligula congue id elis donec sce sag ittis intes id laoreet aenean. </p>
 					</section>
 					<a href="#" class="read-more-main-content">View all of services<img src="images/read-more-btn.png" class="read-more-img" alt="Read More"></a>
-				</article>
-				<article class="right-column">
-					<h1>What Our Clients Say</h1>
+				</section>
+				<section class="right-column">
+					<h2>What Our Clients Say</h2>
 					<div class="right-column-content">
-						<img src="images/blockquote.png" alt="Цитата">
+						<!-- <img src="images/blockquote.png" alt="Цитата"> -->
 						<p class="blockquote">Tommy Tanker - <span>CEO</span></p>
-						<p>Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi lacus.</p>
+						<blockquote>Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi lacus.</blockquote>
 						<a href="#" class="read-more-main-content-right">View this project<img src="images/read-more-btn.png" class="read-more-right-img" alt="Read More"></a>
 					</div>
 					<div class="right-column-content">
-						<img src="images/blockquote.png" alt="Цитата">
+						
 						<p class="blockquote">Tommy Tanker - <span>CEO</span></p>
-						<p>Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi lacus.</p>
+						<blockquote>Justoid nonummy laoreet phasellent penatoque in antesque pellus elis eget tincidunt. Nequatdui laorem justo a non tellus laoreet tincidunt ut vel velit. Idenim semper pellente velis felit ac nullam pretium morbi lacus.</blockquote>
 						<a href="#" class="read-more-main-content-right">View this project<img src="images/read-more-btn.png" class="read-more-right-img" alt="Read More"></a>
 					</div>
-				</article>
+				</section>
 			</section>
 		</section>
 		<footer>
@@ -154,12 +152,10 @@
 			<section class="contact">
 				<h3 class="footer">CONTACT US</h3>
 				<form action="#">
-					<input type="text" placeholder="Name"><br>
-					<input type="text" placeholder="Email"><br>
-					<input type="text" placeholder="Subject"><br>
-					<textarea   cols="27" rows="7">
-						
-					</textarea><br>
+					<label for="name">Name</label><input type="text" placeholder="Name" id="name">
+					<label for="email">Email</label><input type="text" placeholder="Email" id="email">
+					<label for="subject">Subject</label><input type="text" placeholder="Subject" id="subject">
+					<textarea   cols="27" rows="7" placeholder="Message"></textarea>
 					<input type="submit" value="Submit" class="submit-form">
 				</form>
 			</section>
@@ -172,3 +168,4 @@
 		</div>
 </body>
 </html>
+
